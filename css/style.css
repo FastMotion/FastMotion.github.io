@@ -1,0 +1,395 @@
+
+
+#container {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 860px;
+    max-width: 100%!important;
+
+}
+.container {
+    max-width: 100%!important;
+}
+
+#content{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+#profile {
+    background: rgb(9,131,250);
+    background: radial-gradient(circle, rgba(9,131,250,1) 0%, rgba(162,33,33,1) 100%);
+
+    background-repeat: repeat-x;
+    overflow: hidden;
+}
+
+.about {
+    float:left;
+    margin-top: 30px;
+    width: 490px;
+    margin-left: 20px;
+}
+
+.about .photo-inner {
+    float: left;
+    background-image: url("../img/photo-inner.png");
+    background-repeat: no-repeat;
+    width: 214px;
+    height: 214px;
+    padding: 12px 0 0 19px;
+    background-size: 192px 175px;
+    background-position-y: 21px;
+
+}
+
+.about .photo-inner li {
+    margin-top: 20px;
+}
+
+.text {
+    overflow: hidden;
+}
+
+.about h1 {
+    font-weight: 900;
+    color: white;
+    line-height: 34px;
+    margin-top: 8px;
+    margin-left: -20px;
+    margin-bottom: 14px;
+}
+
+.about h3 {
+    margin-top: 5px;
+    font-size: 18px;
+    color:white;
+    line-height: 18px;
+    font-family: 'Oswald',sans-serif;
+
+}
+.about p {
+    font-size:14px;
+    color: white;
+    font-weight: 400;
+    line-height: 24px;
+    font-family:'Roboto Condensed', sans-serif;
+}
+
+.personal-info {
+    float: left;
+    width: 310px;
+    min-height: 23px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background: url('../img/personal-info-sep.png') no-repeat left top;
+    padding: 20px 0 19px 20px;
+}
+
+.personal-info li {
+    line-height: 12px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    float: left;
+    width: 293px;
+}
+
+.personal-info li label {
+     color: white;
+    float: left;
+    border-radius: 3px;
+    font-weight: 500;
+    padding: 4px 7px;
+    text-transform: uppercase;
+    font-family:'Roboto Condensed', sans-serif;
+
+}
+
+.personal-info li span {
+    float: right;
+    width: 220px;
+    padding-top: 4px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family:'Roboto Condensed', sans-serif;
+    color: #fff;
+
+}
+.personal-info li a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+header {
+    position: relative;
+    overflow: visible;
+}
+
+ul.socialicons {
+    opacity: 0;
+    top:-1px;
+    position: relative;
+    transition: all ease 1s;
+    z-index: -1;
+    left: -7px;
+}
+
+.pulse-button {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    line-height: 15px;
+    border: none;
+    box-shadow: 0 0 0 0 rgb(101,100,100);
+    background-color:#cf455c;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.menu {
+    height: 100px;
+    background: linear-gradient(to bottom, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 53%, rgba(255,255,255,1) 100%);
+    position: relative;
+    padding-left: 130px;
+    padding-right: 130px
+}
+.tabs {
+    display: flex;
+    height: 117px;
+    position: absolute;
+    margin-top: -14px;
+    z-index: 100;
+}
+
+ .tabs li >  a {
+    display: inline-block;
+    width: 115px;
+    padding-top: 28px;
+    margin-right: 35px;
+    line-height: 35px;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #b9b9b9;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+ .tabs li.active{
+    background: url("../img/tab-hover.png") no-repeat;
+}
+
+.tabs li.active a {
+    color: #cf455c;
+}
+
+a.tab-profile.active i{
+    animation: bounce 2s infinite;
+
+}
+
+@keyframes bounce{
+    0%, 20%, 80%, 100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(2px)
+    }
+   59% {
+       transform: translateY(-4px);
+   }
+
+}
+
+
+.tabs li > a > i {
+    font-size:45px;
+    display:block;
+    margin-bottom:5px;
+}
+
+#logo {
+    float: left;
+    overflow: hidden;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#logo h2 {
+    color: #555;
+    line-height: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 14px;
+}
+#logo h4 {
+    color: #555;
+    line-height: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-left: 7px;
+}
+
+.education-title {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size:16px!important;
+}
+
+.education-suptitle {
+    font-size:12px!important;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    line-height: 1.4;
+
+}
+
+.portret {
+    max-width: 153px;
+}
+.monitor-bg {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #E4E4E4;
+    background-image: url("../img/monitor-155159_1280.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.monitor-photo {
+    position: relative;
+}
+
+.sicial-items {
+    position: absolute;
+    top: 30%;
+    left:8%;
+    width: 100%;
+    max-width: 400px;
+}
+
+.social-item{
+    margin-left:42px;
+
+}
+
+.fa.fa-facebook {
+    transition: 0.2s linear;
+}
+.fa.fa-telegram {
+    transition: 0.2s linear;
+}.fa.fa-instagram {
+     transition: 0.2s linear;
+ }
+
+
+
+
+.fa.fa-facebook:hover {
+    color: #cf455c;
+    transform: scale(1.4);
+}
+
+.fa.fa-instagram:hover {
+    color: #cf455c;
+    transform: scale(1.4);
+}
+.fa.fa-telegram:hover {
+    transform: scale(1.4);
+    color: #cf455c;
+}
+
+div.fa {
+    font-size: 32px;
+
+}
+
+
+
+.monitor {
+    width: 300px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+}
+
+.photo-activebox {
+    max-width: 180px;
+    max-height: 87px;
+
+}
+
+
+
+#portfolio {
+    padding: 10px;
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+}
+.portfolio-title {
+    margin-top: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 700;
+}
+.portfolio-title p {
+     margin-left: 320px;
+     padding-left: 5px;
+    padding-right: 5px;
+}
+
+.portfolio-list {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.portfolio-list li {
+    text-align: center;
+    background-color: #fbfbfb;
+    border-bottom: 1px solid #e5e5e5;
+    height: 140px;
+    margin-bottom: 30px;
+}
+.portfolio-text {
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    color: black;
+    line-height: 1.5vh;
+}
+.portfolio-list li:hover {
+    border-bottom: 1px solid #dd3434;
+}
+
+
+
+
