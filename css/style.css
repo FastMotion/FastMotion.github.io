@@ -230,6 +230,7 @@ a.tab-profile.active i{
     line-height: 20px;
     font-family: 'Oswald', sans-serif;
     margin-left: 14px;
+    padding: 5px;
 }
 #logo h4 {
     color: #555;
@@ -237,6 +238,7 @@ a.tab-profile.active i{
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
     margin-left: 7px;
+    padding: 5px;
 }
 
 .education-title {
