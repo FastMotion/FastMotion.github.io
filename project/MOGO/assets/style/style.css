@@ -65,7 +65,7 @@ h1,h2,h3,h4,h5,h6 {
 
     font-size: 90px;
     font-weight: 700;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',sans-serif;
     text-transform: uppercase;
     color:#fff;
     line-height: 1;
@@ -329,7 +329,7 @@ color: #999;
     width:100%;
     font-size: 18px;
     color:#fff;
-    text-decoration: uppercase;
+    text-transform: uppercase;
     font-weight: 700;
     text-align:center;
     opacity:0;
@@ -459,10 +459,8 @@ color: #999;
 }
 
 
-.accardion__item.active
+.accardion__item.active,
 .accardion__header:after {
-
-    transform: rotate(-45deg);
     margin-top: 5px;
 
 }
@@ -522,4 +520,8 @@ color: #999;
     text-transform: uppercase;
 
 
+}
+.reviews__item {
+    display: flex;
+    flex-direction: row;
 }
