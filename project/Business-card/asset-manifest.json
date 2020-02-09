@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.580670cc.chunk.css",
+    "main.js": "/static/js/main.ec72f5d9.chunk.js",
+    "main.js.map": "/static/js/main.ec72f5d9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8eea71de.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8eea71de.js.map",
+    "static/css/2.e448224c.chunk.css": "/static/css/2.e448224c.chunk.css",
+    "static/js/2.990de84b.chunk.js": "/static/js/2.990de84b.chunk.js",
+    "static/js/2.990de84b.chunk.js.map": "/static/js/2.990de84b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f2bb6301a19aef0e9be4368e1f9e76e3.js": "/precache-manifest.f2bb6301a19aef0e9be4368e1f9e76e3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.e448224c.chunk.css.map": "/static/css/2.e448224c.chunk.css.map",
+    "static/css/main.580670cc.chunk.css.map": "/static/css/main.580670cc.chunk.css.map",
+    "static/media/styles.css": "/static/media/img.ab233569.jpg",
+    "static/media/512x512.png": "/static/media/512x512.fc8746c7.png",
+    "static/media/style.css": "/static/media/abstract.495faebf.jpg",
+    "static/media/facebook.png": "/static/media/facebook.a1b1f1dd.png",
+    "static/media/gmail.png": "/static/media/gmail.ec46f34a.png",
+    "static/media/image2.png": "/static/media/image2.c0044cf5.png",
+    "static/media/photo1.PNG": "/static/media/photo1.47225f51.PNG",
+    "static/media/photo2.jpg": "/static/media/photo2.105fb61b.jpg",
+    "static/media/telegram.png": "/static/media/telegram.c14768f4.png",
+    "static/media/telephone.png": "/static/media/telephone.5504d1dd.png",
+    "static/media/Снимок1.PNG": "/static/media/Снимок1.88cc52a2.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8eea71de.js",
+    "static/css/2.e448224c.chunk.css",
+    "static/js/2.990de84b.chunk.js",
+    "static/css/main.580670cc.chunk.css",
+    "static/js/main.ec72f5d9.chunk.js"
+  ]
+}
