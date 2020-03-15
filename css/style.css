@@ -351,6 +351,7 @@ div.fa {
 
 
 #portfolio {
+
     padding: 10px;
     background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
 }
@@ -373,6 +374,7 @@ div.fa {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+
 }
 .portfolio-list li {
     text-align: center;
