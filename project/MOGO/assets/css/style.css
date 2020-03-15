@@ -33,7 +33,6 @@ hr {
     overflow: hidden;
 }
 
-
 /* Container */
 .container {
     width: 100%;
@@ -366,7 +365,9 @@ hr {
 
 .section--map {
     padding: 40px 0;
-    background: #e6e6e6 url("../images/map-bg.jpg") center no-repeat / cover;
+    background: #e6e6e6 url("../images/map-bg.jpg") center ;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .section__header {
@@ -1300,6 +1301,9 @@ hr {
 .copyright span {
     color: #f38181;
 }
+
+
+
 
 
 
