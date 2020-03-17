@@ -48,6 +48,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 
 }
 
@@ -82,6 +83,85 @@ body {
     background-color: #690102;
 }
 
+/*menu*/
+
+.menu {
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    transition:all .5s;
+    z-index: 7;
+}
+
+.menu.active {
+    left: 0;
+}
+
+
+.close-btn {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 15px;
+    top:31px;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.close-btn::after,
+.close-btn::before {
+    content: '';
+    width: 70px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    transform-origin: left;
+}
+
+.close-btn::after {
+    transform: rotate(45deg);
+}
+
+.close-btn::before {
+    transform: rotate(-45deg);
+    bottom: -1px;
+}
+
+.menu__list {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu__list li {
+    list-style: none;
+}
+
+.menu__list a {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    padding: 30px 25px 14px 0;
+    border-bottom: 3px solid #B70021;
+    min-width: 368px;
+    transition: all 0.5s;
+
+}
+
+.menu__list a:hover {
+    border-color: #FFF;
+    color:#B70021;
+    transform: scale(1.2);
+    margin-left: 37px;
+}
+.container-menu {
+    position: relative;
+}
+
+    /*slider*/
 .slider__item {
     height: 100vh;
     background-repeat: no-repeat;
@@ -113,7 +193,8 @@ body {
     margin: -55px auto 0;
     position: relative;
     z-index: 6;
-    max-width: 1200px;
+    max-width: 1230px;
+    padding: 0 15px;
 }
 
 /*statistics*/
@@ -202,6 +283,8 @@ body {
 
 
 
+
+
 .design__images {
     margin-bottom: 100px;
 }
@@ -258,4 +341,120 @@ body {
     content: '|';
     position: absolute;
     left: -5px;
+}
+
+/*media*/
+@media(max-width:1222px) {
+    .advantages__text{
+        padding-left: 20px;
+    }
+    .design__images img {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1020px) {
+    .design-row {
+        display: block;
+    }
+    .design-row__item {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        padding-right: 0;
+    }
+    .design__images,
+    .design-row{
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 930px) {
+    .advantages-inner__row {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .advantages__title {
+        position: static;
+    }
+    .advantages-descr {
+        text-align: center;
+    }
+    .advantages__text {
+        margin: 25px auto;
+        padding-left: 0;
+    }
+    .advantages-inner__row--mobile .advantages-descr{
+        order: -1;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media(max-width:820px) {
+    .statistics-item {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 650px) {
+    .advantages-img img {
+        width: 100%;
+    }
+    .design-row__item-text {
+        font-size: 20px;
+    }
+    .design-row__item-num {
+        padding-left: 10px ;
+        padding-bottom: 10px;
+    }
+}
+@media(max-width:440px) {
+    .header-content__title {
+        font-size: 80px;
+        margin-top: 20px;
+        line-height: 90px;
+    }
+}
+@media(max-width:410px) {
+    .logo img {
+     width: 200px;
+    }
+    .header-content__title {
+        font-size: 65px;
+        margin-top: 15px;
+        line-height: 60px;
+        margin-bottom: 25px;
+    }
+    .header-content__text {
+        font-size: 16px;
+    }
+    .menu__list a {
+        font-size: 35px;
+        line-height: 30px;
+        min-width: 289px;
+    }
+    .menu__list ul {
+        width: 100%;
+    }
+    .statistics-item {
+        padding: 18px 0;
+    }
+    .statistics {
+        margin: 110px 0 50px;
+    }
+    .video {
+        margin-bottom: 50px;
+    }
+    .button {
+        padding: 20px 45px;
+    }
+    body {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .advantages__text {
+        width: 100%;
+    }
 }
