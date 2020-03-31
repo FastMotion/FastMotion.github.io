@@ -372,16 +372,15 @@ div.fa {
 .portfolio-list {
     overflow: hidden;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 
 }
 .portfolio-list li {
     text-align: center;
     background-color: #fbfbfb;
-    border-bottom: 1px solid #e5e5e5;
     height: 140px;
-    margin-bottom: 30px;
+
 }
 .portfolio-text {
     margin-top: 15px;
@@ -394,7 +393,7 @@ div.fa {
 .portfolio-list li:hover {
     border-bottom: 1px solid #dd3434;
 }
-
-
-
-
+.portfolio-item {
+    padding-top: 10px;
+    width: 33.333%;
+}
