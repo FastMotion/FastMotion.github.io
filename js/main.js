@@ -1,7 +1,7 @@
 jQuery(document).ready(function(){
 
   // Logo
-  let $logo 	= $('#logo');
+  let $logo = $('#logo');
 
   if (location.href.indexOf("#") != -1) {
     $logo.show();
@@ -57,4 +57,13 @@ jQuery(document).ready(function(){
       $(this).stop().animate({ marginTop: "0px" }, 300);
     }
   );
+
+// loader
+    $(window).on('load', function() {
+        let loader = $('.preload')
+            setTimeout(function () {
+                loader.addClass('complete')
+                loader.toggleClass('done',true)
+            },1000)
+    });
 });
